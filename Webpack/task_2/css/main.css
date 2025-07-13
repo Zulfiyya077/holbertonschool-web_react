@@ -1,0 +1,48 @@
+#logo {
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 20px auto;
+  display: block;
+  border: 1px solid #ddd;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#start-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#start-button:hover {
+  background-color: #0056b3;
+}
+
+#count {
+  font-weight: bold;
+  color: #333;
+  margin-left: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.4;
+}

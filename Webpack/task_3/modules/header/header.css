@@ -1,0 +1,21 @@
+/* task_3/modules/header/header.css */
+
+#logo {
+  width: 200px;
+  height: 200px;
+  background-image: url('../../assets/holberton-logo.jpg');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 20px auto;
+  display: block;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,11 @@
+/* task_3/modules/footer/footer.css */
+
+.copyright {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 30px 0 20px 0;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}
