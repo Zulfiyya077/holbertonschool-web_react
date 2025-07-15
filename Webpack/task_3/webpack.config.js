@@ -5,7 +5,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   mode: 'development',
   
-  // Multiple entry points
   entry: {
     header: './modules/header/header.js',
     body: './modules/body/body.js',
@@ -18,7 +17,6 @@ module.exports = {
     clean: true,
   },
   
-  // Development server configuration
   devServer: {
     static: './public',
     port: 8564,
@@ -26,7 +24,6 @@ module.exports = {
     hot: true,
   },
   
-  // Source mapping for development
   devtool: 'inline-source-map',
   
   module: {
@@ -73,17 +70,13 @@ module.exports = {
   },
   
   plugins: [
-    // Clean build folder on each build
     new CleanWebpackPlugin(),
-    
-    // Automatically create index.html
     new HtmlWebpackPlugin({
       title: 'Holberton Dashboard',
       filename: 'index.html',
     }),
   ],
   
-  // Code splitting and tree shaking
   optimization: {
     splitChunks: {
       chunks: 'all',
