@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './App.css'
 import holbertonLogo from './assets/holberton-logo.jpg'
 
