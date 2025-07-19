@@ -11,6 +11,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-environment-jsdom": "^30.0.4",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
