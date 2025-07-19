@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react';  // Bu sətir vacibdir
 import './App.css'
 import holbertonLogo from './assets/holberton-logo.jpg'
+
 function App() {
   const currentYear = new Date().getFullYear()
 
@@ -8,7 +9,7 @@ function App() {
     <div>
       <div className="App-header">
         <img src={holbertonLogo} alt="holberton logo" />
-        <h1>School dashboard</h1>  {/* Böyük D olmalıdır? */}
+        <h1>School dashboard</h1>
       </div>
       <div className="App-body">
         <p>Login to access the full dashboard</p>
